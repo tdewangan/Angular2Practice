@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -20,10 +20,11 @@ import { FormExampleComponent } from './form-example/form-example.component';
     FormExampleComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
+    FlexLayoutModule,
     FormsModule,
-    ReactiveFormsModule,
-    AppRoutingModule
+    ReactiveFormsModule
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]
