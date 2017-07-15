@@ -1,0 +1,8 @@
+<h2>Hero Detail</h2>
+<h3><i>Just a FormControl</i></h3>
+<form [formGroup]="heroForm" noValidate>
+  <label class="center-block">Name:</label>
+  <input class="form-control" formControlName="name">
+</form>
+{{ heroForm.value | json }}
+{{ heroForm.status | json }}
