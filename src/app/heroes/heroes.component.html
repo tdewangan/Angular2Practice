@@ -6,6 +6,7 @@
   </li>
 </ul>
 <div *ngIf="selectedHero">
+  <app-form-example [hero]="selectedHero"></app-form-example>
   <h2>
     {{selectedHero.name | uppercase}} is my hero
   </h2>
