@@ -1,0 +1,8 @@
+<h1>Weather App</h1>
+<input type="search" [(ngModel)]="city" (keyup)="addCity(city, $event)" placeholder="Search weather for your city">
+<ul>
+  <li *ngFor="let weather of citiesWeather">
+    <h3>{{weather.name}}</h3>
+    <p>{{weather.coord.lon}}, {{weather.coord.lat}} {{weather.weather[0].description}}</p>
+  </li>
+</ul>
