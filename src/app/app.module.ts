@@ -13,6 +13,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { FormExampleComponent } from './form-example/form-example.component';
 import { WeatherAppComponent } from './weather-app/weather-app.component';
 import { WeatherAppService } from './weather-app/weather-app.service';
+import { TextboxComponentComponent } from './textbox-component/textbox-component.component';
+import { SampleFormComponentComponent } from './sample-form-component/sample-form-component.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { WeatherAppService } from './weather-app/weather-app.service';
     HeroesComponent,
     DashboardComponent,
     FormExampleComponent,
-    WeatherAppComponent
+    WeatherAppComponent,
+    TextboxComponentComponent,
+    SampleFormComponentComponent
   ],
   imports: [
     AppRoutingModule,
