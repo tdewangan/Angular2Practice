@@ -15,6 +15,8 @@ import { WeatherAppComponent } from './weather-app/weather-app.component';
 import { WeatherAppService } from './weather-app/weather-app.service';
 import { TextboxComponentComponent } from './textbox-component/textbox-component.component';
 import { SampleFormComponentComponent } from './sample-form-component/sample-form-component.component';
+import { CriteriaComponent } from './criteria/criteria.component';
+import { CriteriaExampleComponent } from './criteria-example/criteria-example.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { SampleFormComponentComponent } from './sample-form-component/sample-for
     FormExampleComponent,
     WeatherAppComponent,
     TextboxComponentComponent,
-    SampleFormComponentComponent
+    SampleFormComponentComponent,
+    CriteriaComponent,
+    CriteriaExampleComponent
   ],
   imports: [
     AppRoutingModule,
